@@ -2,6 +2,10 @@
 
 set -ex
 
+go env
+
+echo ""
+
 go build -gcflags=-m
 
 echo ""
